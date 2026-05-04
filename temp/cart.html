@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Корзина</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cart.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Fredoka:wght@300..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">WILDOZON</div>
+        <nav>
+            <a href="index.html">Главная</a>
+            <a href="products.html">Товары</a>
+        </nav>
+        <div class="cart">
+            <a href="cart.html">Корзина</a>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="cart-container">
+                <div class="cart-elements"></div>
+                <div class="summary">
+                    <div class="summary-header">Итого</div>
+                    <div class="summary-info">
+                        <p class="summary-prod">Товары</p>
+                        <p class="summary-price">0₽</p>
+                    </div>
+                    <button class="summary-buy">Купить всё</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script type="module" src="cart.js"></script>
+</body>
+</html>
